@@ -35,12 +35,6 @@ module.exports = {
       }
     },
     {
-      method: "fs.link",
-      params: {
-        venv: "app/env"
-      }
-    },
-    {
       method: "notify",
       params: {
         html: "Click the 'start' tab to get started!"
